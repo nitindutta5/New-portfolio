@@ -1,0 +1,39 @@
+
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size:20px !important;
+    margin-top:30px!important;
+  }
+  
+
+  header .nav-link{
+      color:rgb(10, 10, 10);
+      font-weight: bold;
+      
+  }
+  header{
+      background-color: #fff;
+  }
+
+  .nav-link a:hover,
+  .nav-link a:active,
+  .nav-link a:focus{
+      border-bottom:2px solid #0c0c0c;
+  }
+
+  a:active,
+  a:focus,
+  a:hover{
+      color: gray !important;
+  }
+
+  .menu-icon{
+      width:100%;
+      max-width:20px;
+  }
+
+  *{
+      outline: none !important;
+  }
