@@ -41,3 +41,24 @@ body{
   .profile-image{
 border-radius:50%;
   }
+  #Qualification .jumbotron{
+      background-image: url(../assets/qualification.png);
+      background-size: 30% 60%;
+      background-position: right;
+      background-repeat: no-repeat;
+  }
+
+  #Home .jumbotron{
+    background-image: url(../assets/fed.png);
+    background-size: 25% 80%;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (max-width: 480px){
+
+    #Qualification .jumbotron{
+    background-image:none;
+}
+
+  }
