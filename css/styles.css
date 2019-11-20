@@ -37,3 +37,7 @@ body{
   *{
       outline: none !important;
   }
+
+  .profile-image{
+border-radius:50%;
+  }
