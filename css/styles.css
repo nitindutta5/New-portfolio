@@ -38,9 +38,8 @@ body{
       outline: none !important;
   }
 
-  .profile-image{
-border-radius:50%;
-  }
+ 
+
   #Qualification .jumbotron{
       background-image: url(../assets/qualification.png);
       background-size: 30% 60%;
@@ -60,5 +59,13 @@ border-radius:50%;
     #Qualification .jumbotron{
     background-image:none;
 }
+
+/* .profile-image{
+    border-radius:50%;
+    width:100%;
+    max-width:100px !important;
+      } */
+
+
 
   }
