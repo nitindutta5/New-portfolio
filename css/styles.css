@@ -29,6 +29,10 @@ body{
       color: gray !important;
   }
 
+  a{
+      color: #000000 !important;
+  }
+
   .menu-icon{
       width:100%;
       max-width:20px;
@@ -43,17 +47,28 @@ body{
   #Qualification .jumbotron{
       background-image: url(../assets/qualification.png);
       background-size: 30% 60%;
-      background-position: right;
+      background-position: bottom right;
       background-repeat: no-repeat;
   }
 
   #Home .jumbotron{
     background-image: url(../assets/fed.png);
-    background-size: 25% 80%;
-    background-position: right;
+    background-size: 25% 65%;
+    background-position: bottom right;
     background-repeat: no-repeat;
   }
 
+  @media screen and (max-width: 1000px){
+
+    #Qualification .jumbotron{
+    background-image:none;
+  }
+  }
+@media (min-width: 576px){
+    .jumbotron {
+    padding: 6rem 2rem !important;
+}
+}
   @media screen and (max-width: 480px){
 
     #Qualification .jumbotron{
