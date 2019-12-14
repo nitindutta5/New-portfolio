@@ -26,13 +26,15 @@ body{
   a:active,
   a:focus,
   a:hover{
-      color: gray !important;
+      color: rgb(102, 101, 101) !important;
   }
 
   a{
       color: #000000 !important;
   }
-
+.bg-color{
+    background-color: rgb(179, 176, 176) !important;
+}
   .menu-icon{
       width:100%;
       max-width:20px;
@@ -44,19 +46,9 @@ body{
 
  
 
-  #Qualification .jumbotron{
-      background-image: url(../assets/qualification.png);
-      background-size: 30% 60%;
-      background-position: bottom right;
-      background-repeat: no-repeat;
-  }
+  
 
-  #Home .jumbotron{
-    background-image: url(../assets/fed.png);
-    background-size: 25% 65%;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-  }
+  
   .htmlpercentage{
     background-color:#000000;  
     color:#fff;
