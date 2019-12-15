@@ -1,4 +1,10 @@
-
+.gif{
+    background-image:url(https://media.giphy.com/media/gdNmEIkMm2wUpspdTf/giphy.gif) ;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+   
+    background-position-x: right;
+}
 
 
 body{
